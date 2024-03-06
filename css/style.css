@@ -99,11 +99,3 @@ td img{
 td img:hover{
     width: 200px;
 }
-
-footer{
-    background-color: rgb(41, 39, 49);
-    width: 100%;
-    height: 15px;
-    position: absolute;
-    bottom: 0;
-}
