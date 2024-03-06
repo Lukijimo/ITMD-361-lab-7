@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    background-color: rgb(22, 21, 24);
+}
+
+#nav {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    padding: 0;
+    background-color: rgb(41, 39, 49);
+    margin-bottom: 10px;
+    display: flex;
+
+    z-index: 1;
+    box-shadow: 0px 0px 7px;
+    align-items: center;
+}
+
+#nav:hover{
+    background-color: rgb(31, 29, 41);
+}
+
+#nav h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding-left: 10px;
+    color: white;
+
+    /*right end*/
+    margin-right: auto;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    float: right;
+    align-items: center;
+
+    /*left end*/
+    margin-left: auto;
+}
+
+#nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav ul li a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+table{
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+td:nth-child(n+2):hover {
+    background-color: gray;
+}
+
+td a, th a{
+    text-decoration: none;
+    color: white;
+}
+
+td{
+    color: white;
+}
+
+td a:hover, th a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+td img{
+    width: 150px;
+    transition: width 2s;
+    transition-delay: 1s;
+}
+
+td img:hover{
+    width: 200px;
+}
+
+footer{
+    background-color: rgb(41, 39, 49);
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    bottom: 0;
+}
